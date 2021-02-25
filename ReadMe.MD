@@ -1,8 +1,8 @@
 ## Mp3Recoder-Plugin
 
+[![](https://jitpack.io/v/SheTieJun/Mp3Recorder-gradle-plugin.svg)](https://jitpack.io/#SheTieJun/Mp3Recorder-gradle-plugin)
+
 这是给仓库：**[Mp3Recorder](https://github.com/SheTieJun/Mp3Recorder)** 使用的插件方式集成
-
-
 
 ```
 buildscript {
