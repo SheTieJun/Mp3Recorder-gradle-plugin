@@ -1,0 +1,16 @@
+apply plugin: 'maven'
+
+group = 'me.shetj.plugin'
+version = '1.0.1'
+archivesBaseName = 'recorder-plugin'
+
+//classpath 'cme.shetj.plugin:recorder-plugin:1.0.0' // Add this line
+//upload
+////本地上传
+
+uploadArchives {
+    repositories.mavenDeployer {
+        //http://localhost:8080/maven/
+        repository(url: uri('../maven/shetj'))
+    }
+}
