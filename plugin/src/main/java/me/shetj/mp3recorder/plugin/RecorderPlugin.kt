@@ -22,11 +22,6 @@ class RecorderPlugin : Plugin<Project> {
 
         project.afterEvaluate {
             project.dependencies.apply {
-                println("recorderConfig:")
-                println("       needMix:${config.needMix}")
-                println("       needUI:${config.needUI}")
-                println("       needSim:${config.needSim}")
-                println("       libVersion:${config.libVersion}")
                 val type = project.gradle.gradleVersion.let {
                     if (  it.split(".")[0].toInt() >=3) {
                         if (config.appModule) {
