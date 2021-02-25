@@ -2,6 +2,8 @@
 
 这是给仓库：**[Mp3Recorder](https://github.com/SheTieJun/Mp3Recorder)** 使用的插件方式集成
 
+
+
 ```
 buildscript {
    
@@ -42,6 +44,12 @@ recorder {
     libVersion = "1.3.0"// lib版本 :默认1.3.0
 }
 ```
+
+### 版本
+
+`Mp3Recorder-gradle-plugin `:1.0.0 对应  `Mp3Recorder`:1.3.0 
+
+
 
 ### TIP:😂
 
